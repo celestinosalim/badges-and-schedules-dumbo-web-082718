@@ -22,7 +22,7 @@ def assign_rooms(speakers)
 #     room += 1
 #   end
   list
-# end
+end
 
 def printer(attendees)
   badges = batch_badge_creator(attendees)
