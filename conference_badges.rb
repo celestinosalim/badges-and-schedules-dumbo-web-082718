@@ -36,6 +36,5 @@ def printer(attendees)
   i = 0
   rooms.each do |assignment|
     puts assignment
-    i += 1
   end
 end
