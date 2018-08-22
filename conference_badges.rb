@@ -14,13 +14,15 @@ end
 def assign_rooms(speakers)
   list = []
   room = 1
-  speakers.each do |name|
-    room_assignments = "Hello, #{name}! You'll be assigned to room #{room}!"
-    list << room_assignments
-    room += 1
-  end
-  list
-end
+  speakers.each_with_index do |name, index|
+    room_assignments = "Hello, #{{name}}! You'll be assigned to room #{index}"
+#   speakers.each do |name|
+#     room_assignments = "Hello, #{name}! You'll be assigned to room #{room}!"
+#     list << room_assignments
+#     room += 1
+#   end
+#   list
+# end
 
 def printer(attendees)
   badges = batch_badge_creator(attendees)
