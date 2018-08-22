@@ -30,12 +30,10 @@ def printer(attendees)
   badges.each do |name|
     puts name
     # puts badges[i]
-    i += 1
   end
   rooms = assign_rooms(attendees)
   i = 0
   rooms.each do |assignment|
     puts assignment
-    i += 1
   end
 end
