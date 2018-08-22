@@ -21,7 +21,7 @@ def assign_rooms(speakers)
 #     list << room_assignments
 #     room += 1
 #   end
-#   list
+  list
 # end
 
 def printer(attendees)
